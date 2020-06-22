@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IOC", "Infra.IOC", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{ED36E7C1-9840-4953-8B3B-56A0B4EDA9BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.MVC", "CleanArch.MVC\CleanArch.MVC.csproj", "{AA80B5A0-8954-4792-BB4B-2B5C4835BFC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.MVC", "CleanArch.MVC\CleanArch.MVC.csproj", "{AA80B5A0-8954-4792-BB4B-2B5C4835BFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{4162C1FF-E0FF-4649-95AB-911CA231A982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{4162C1FF-E0FF-4649-95AB-911CA231A982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{CC7C952C-BB59-4E29-8745-547C0C332C4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{4162C1FF-E0FF-4649-95AB-911CA231A982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4162C1FF-E0FF-4649-95AB-911CA231A982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4162C1FF-E0FF-4649-95AB-911CA231A982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7C952C-BB59-4E29-8745-547C0C332C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7C952C-BB59-4E29-8745-547C0C332C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7C952C-BB59-4E29-8745-547C0C332C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7C952C-BB59-4E29-8745-547C0C332C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AA80B5A0-8954-4792-BB4B-2B5C4835BFC3} = {ED36E7C1-9840-4953-8B3B-56A0B4EDA9BA}
 		{4162C1FF-E0FF-4649-95AB-911CA231A982} = {D952DB11-3727-4234-A828-BE90AAEC0E5A}
+		{CC7C952C-BB59-4E29-8745-547C0C332C4A} = {D08419C7-12B9-48E4-BF95-92D60C68BC2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21D51C7A-25CB-440F-875A-219C15DE1B32}
