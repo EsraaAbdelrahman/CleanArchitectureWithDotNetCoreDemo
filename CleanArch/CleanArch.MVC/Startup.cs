@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
+using MediatR;
 
 namespace CleanArch.MVC
 {
@@ -39,7 +40,7 @@ namespace CleanArch.MVC
             {
                 options.UseSqlServer(Configuration.GetConnectionString("UniversityDBConnection"));
             });
-
+            services.AddMediatR(typeof(Startup));
             services.AddControllersWithViews();
             services.AddRazorPages();
 
