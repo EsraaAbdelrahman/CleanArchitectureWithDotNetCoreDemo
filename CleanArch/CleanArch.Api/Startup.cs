@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MediatR;
 using Microsoft.OpenApi.Models;
+using CleanArch.Api.Configuration;
 
 namespace CleanArch.Api
 {
@@ -40,6 +41,7 @@ namespace CleanArch.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title="University Api",Version="V1" }) ;
             });
+            services.RegisterAutoMapper();
             services.AddControllers();
             RegisterServices(services);
         }
