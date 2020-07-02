@@ -29,7 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F67100FF-22B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Bus", "CleanArch.Infra.Bus\CleanArch.Infra.Bus.csproj", "{0B737C22-C876-4563-97AA-70E031591065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{E2C8734A-A140-44ED-A49D-DD7BD6B963EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{E2C8734A-A140-44ED-A49D-DD7BD6B963EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Api", "CleanArch.Api\CleanArch.Api.csproj", "{2574717B-BFE0-488F-B1B0-CB8730824FF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{E2C8734A-A140-44ED-A49D-DD7BD6B963EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2C8734A-A140-44ED-A49D-DD7BD6B963EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2C8734A-A140-44ED-A49D-DD7BD6B963EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2574717B-BFE0-488F-B1B0-CB8730824FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2574717B-BFE0-488F-B1B0-CB8730824FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2574717B-BFE0-488F-B1B0-CB8730824FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2574717B-BFE0-488F-B1B0-CB8730824FF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{D3D20714-52A8-4010-9235-500C3AE326CC} = {9CD55391-1A56-4BAF-A93D-7A17399A7292}
 		{0B737C22-C876-4563-97AA-70E031591065} = {8A4E9C5F-EDFF-46B5-97AA-2C532167B588}
 		{E2C8734A-A140-44ED-A49D-DD7BD6B963EB} = {D952DB11-3727-4234-A828-BE90AAEC0E5A}
+		{2574717B-BFE0-488F-B1B0-CB8730824FF2} = {F67100FF-22BD-4C9B-B3ED-D6DBD0FAC4BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21D51C7A-25CB-440F-875A-219C15DE1B32}
